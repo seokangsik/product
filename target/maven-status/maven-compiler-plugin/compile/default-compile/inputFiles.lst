@@ -1,0 +1,13 @@
+C:\myproject\product\src\main\java\rental\Ordered.java
+C:\myproject\product\src\main\java\rental\ProductRepository.java
+C:\myproject\product\src\main\java\rental\AbstractEvent.java
+C:\myproject\product\src\main\java\rental\ProductController.java
+C:\myproject\product\src\main\java\rental\ProductApplication.java
+C:\myproject\product\src\main\java\rental\Product.java
+C:\myproject\product\src\main\java\rental\ProductChanged.java
+C:\myproject\product\src\main\java\rental\ProductRegistered.java
+C:\myproject\product\src\main\java\rental\ItemProduced.java
+C:\myproject\product\src\main\java\rental\OrderCanceled.java
+C:\myproject\product\src\main\java\rental\config\kafka\KafkaProcessor.java
+C:\myproject\product\src\main\java\rental\PolicyHandler.java
+C:\myproject\product\src\main\java\rental\ItemCreated.java
