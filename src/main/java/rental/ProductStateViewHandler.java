@@ -43,7 +43,7 @@ public class ProductStateViewHandler {
                 List<ProductState> productStateList = productStateRepository.findByItemId(itemProduced.getId());
                 for(ProductState productState : productStateList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
-                    productState.setAmount(itemProduced.getAmount());
+                    productState.setAmount(productState.getAmount()+itemProduced.getAmount());
                     // view 레파지 토리에 save
                     productStateRepository.save(productState);
                 }
@@ -60,7 +60,7 @@ public class ProductStateViewHandler {
                 List<ProductState> productStateList = productStateRepository.findByItemId(productChanged.getId());
                 for(ProductState productState : productStateList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
-                    productState.setItemId(productChanged.getId());
+                    productState.setAmount(productState.getAmount() + productChanged.getAmount());
                     // view 레파지 토리에 save
                     productStateRepository.save(productState);
                 }
