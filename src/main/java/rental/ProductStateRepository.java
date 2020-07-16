@@ -8,6 +8,6 @@ import java.util.List;
 public interface ProductStateRepository extends CrudRepository<ProductState, Long> {
 
     List<ProductState> findByItemId(Long itemId);
-    List<ProductState> findByAmount(Integer amount);
+    
 
 }
